@@ -40,8 +40,9 @@ def loginaction():
 
 @app.route("/list")
 def user_list():
+    cur.execute("select * from users;")
     if "username" in session:
-        return render_template("list.html",user_list=fileutils.file_dict.items())
+        return render_template("list.html",user_list=cur.fetchall())
     else:
         return redirect("/")
 
@@ -49,8 +50,8 @@ def user_list():
 @app.route("/del")
 def delete_user():
     user = request.args.get("user")
-    fileutils.file_dict.pop(user)
-    fileutils.write_file()
+    cur.execute("delete from users where user ='%s'"%user)
+    conn.commit()
     return redirect("/list")
 
 
@@ -58,25 +59,36 @@ def delete_user():
 def add_user():
     user = request.args.get("user")
     pwd = request.args.get("pwd")
-    if user in fileutils.file_dict:
+    cur.execute("select user from users")
+    flag = 0
+    for tmp_user in cur.fetchall():
+        if user == tmp_user[0]:
+            flag=1
+        else:
+            flag=0
+    if flag==1:
         return redirect("/list")
     else:
-        fileutils.file_dict[user]=pwd
-        fileutils.write_file()
+        cur.execute("insert into users values ('%s','%s')"%(user,pwd))
+        conn.commit()
         return redirect("/list")
+
 
 
 @app.route("/update")
 def update_user():
     user = request.args.get("user")
-    pwd = fileutils.file_dict[user]
-    return render_template("update.html",user=user,pwd=pwd)
+    cur.execute("select pwd from users where user='%s'"%user)
+    pwd = cur.fetchall()
+    return render_template("update.html",user=user,pwd=pwd[0][0])
 
 @app.route("/updateaction")
 def update_action():
     user = request.args.get("user")
     pwd = request.args.get("pwd")
-    fileutils.file_dict[user]=pwd
+    cur.execute("update users set pwd='%s' where user='%s';"%(pwd,user))
+    conn.commit()
+    # fileutils.file_dict[user]=pwd
     return redirect("/list")
 
 
