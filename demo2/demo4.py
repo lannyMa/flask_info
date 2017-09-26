@@ -8,14 +8,14 @@ app = Flask(__name__)
 
 @app.route("/")
 def user():
-    return render_template("index.html",name="jacks")
+    return render_template("index.html.html",name="jacks")
 
 
 
 @app.route("/list")
 def names():
     names = ['lanny','jack','maotai']
-    return render_template("index.html",names = names)
+    return render_template("index.html.html",names = names)
 
 
 app.run(debug=True)

@@ -1,14 +1,15 @@
 #!/usr/bin/env python
 # coding=utf-8
 
-
 from flask import Flask,render_template
+
 
 
 app = Flask(__name__)
 
 @app.route("/")
-def user():
-    return render_template("index.html.html",name="jacks")
+def index():
+    return  render_template("index.html")
+
 
 app.run(debug=True)
