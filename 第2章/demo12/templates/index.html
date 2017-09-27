@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>index</title>
+</head>
+<body>
+<a href="{{  url_for('login', _external=True) }}">login</a>
+
+
+{#{{ url_for('index', _external=True) }}                http://localhost:5000/#}
+{#{{ url_for('user', name='john', _external=True) }}    http://localhost:5000/user/john#}
+{#{{ url_for('index', page=2) }}                        /?page=2#}
+
+<a href="{{ url_for('index', _external=True) }} ">index</a>
+<a href="{{ url_for('login', name='john', _external=True) }}">user</a>
+<a href="{{ url_for('index', page=2) }}">index?</a>
+<a href="{{ url_for('index', page=2,user='admin',pwd=123) }}">index?</a>
+
+</body>
+</html>

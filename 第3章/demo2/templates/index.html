@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>index</title>
+    <style>
+        #my-text-field{
+            color: green;
+        }
+    </style>
+</head>
+<body>
+{#<form method="POST">#}
+{#    {{ form.hidden_tag() }}#}
+{#    {{ form.name.label }} {{ form.name() }}#}
+{#    {{ form.submit() }}#}
+{##}
+{#</form>#}
+{#{{ name }}#}
+
+<form method="POST">
+{{ form.hidden_tag() }}
+{{ form.name.label }} {{ form.name(id='my-text-field') }}
+{{ form.submit() }}
+</form>
+
+
+
+</body>
+</html>

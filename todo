@@ -4,11 +4,16 @@
 flaskup实现文件上传
 
 
+
+1.骨架
+
+2.模版
 传递字符串
      html
      html+str
      html+list
      html+dict
+     html+obj
 
 前端:
     {{ name }}
@@ -17,7 +22,13 @@ flaskup实现文件上传
 
     nav.html bottom.html tongji.html -->base.html--->index.html继承
 
-
+3.url
 自定义错误页: @app.errorhandler
+url & 静态文件 css img
+moment.js时间本地化
 
-静态文件 css img
+
+4.form
+
+
+

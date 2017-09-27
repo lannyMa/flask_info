@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>login</title>
+</head>
+<body>
+<form action="/loginaction">
+    {{ get_flashed_messages()[0] }}<br>
+    user: <input type="text" name="user"><br>
+    pwd: <input type="text" name="pwd"><br>
+    <input type="submit">
+</form>
+</body>
+</html>
