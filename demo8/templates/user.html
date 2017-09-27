@@ -1,11 +1,10 @@
 {% extends 'base.html' %}
 
-
 {% block title %}
-    new title
+    Flasky
 {% endblock %}
 
-{% block content %}
-    {{ super() }}
-    新内容xxx
+
+{% block page_content %}
+<h1>hello {{ name }}</h1>
 {% endblock %}

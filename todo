@@ -1,0 +1,23 @@
+
+
+
+flaskup实现文件上传
+
+
+传递字符串
+     html
+     html+str
+     html+list
+     html+dict
+
+前端:
+    {{ name }}
+    for遍历
+    if判断
+
+    nav.html bottom.html tongji.html -->base.html--->index.html继承
+
+
+自定义错误页: @app.errorhandler
+
+静态文件 css img
