@@ -23,12 +23,33 @@ flaskup实现文件上传
     nav.html bottom.html tongji.html -->base.html--->index.html继承
 
 3.url
-自定义错误页: @app.errorhandler
-url & 静态文件 css img
-moment.js时间本地化
+	自定义错误页: @app.errorhandler
+	url & 静态文件 css img
+	moment.js时间本地化
 
 
 4.form
+	展示
+	验证
 
 
 
+增删改查
+    文件
+    db
+
+
+#############数据结构##############
+列表拆解
+	拆分为变量
+	获取首尾项
+	去掉脏数据
+
+
+队列:
+	保留最大最小几个数
+	优先级队列
+
+字典:
+	kv倒置
+	按照某项排列获取key

@@ -2,87 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f009fe2f-169a-4817-b561-7edb1f3deaa6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/app.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/models.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/templates/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/templates/login.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/templates/user.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo2/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo2/app.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo2/manage.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo2/models.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第3章/demo1/hello-ori.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第3章/demo1/hello.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第3章/demo1/templates/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第3章/demo2/hello.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第3章/demo2/templates/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第3章/demo3/hello.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第3章/demo3/templates/base.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第3章/demo3/templates/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第3章/demo4/hello.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第3章/demo4/templates/base.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第3章/demo4/templates/index.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo1/.idea/demo1.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo1/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo1/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo1/.idea/preferred-vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo1/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo1/d1.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo1/demo1.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo2/demo1.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo2/demo2.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo2/demo3.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo2/demo4.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo2/login.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo2/templates/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo3/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo3/app-fromfile.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo3/app-frommysql.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo3/app.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo3/demo.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo3/fileutils.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo3/templates/list.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo3/templates/login.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo3/templates/update.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo3/users.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo4/demo.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo4/echo_client.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo4/echo_server.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo4/favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo4/http_client.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo4/nginx_upload_module-2.2.0.tar.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo4/test.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo4/udp_client.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo4/udp_server.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo4/users.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo5/demo1.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo5/demo2.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo5/demo3.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo5/demo4.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo5/demo5.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo5/templates/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo5/templates/login.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo5/templates/test.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo5/templates/txl_show.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo5/templates/user.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo6/app.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo6/templates/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo7/app.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo7/templates/base.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo7/templates/bottom.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo7/templates/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo7/templates/nav.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo7/templates/tongji.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo8/hello.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo8/static/favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo8/templates/404-dy.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo8/templates/404.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo8/templates/base.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo8/templates/user.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo9/app.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo9/static/css/base.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo9/templates/index.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/flask_info/flask_info.one" afterPath="$PROJECT_DIR$/flask_info/flask_info.one" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/todo" afterPath="$PROJECT_DIR$/todo" />
     </list>
     <ignored path="$PROJECT_DIR$/.idea/" />
@@ -119,7 +39,7 @@
         <entry file="file://$PROJECT_DIR$/demo2/app.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="375">
-              <caret line="15" column="13" lean-forward="true" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+              <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -129,7 +49,7 @@
         <entry file="file://$PROJECT_DIR$/demo2/manage.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="405">
-              <caret line="25" column="16" lean-forward="true" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
+              <caret line="25" column="16" lean-forward="false" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
               <folding>
                 <element signature="e#38#52#0" expanded="true" />
                 <element signature="e#188#207#0" expanded="false" />
@@ -944,7 +864,7 @@
     <entry file="file://$PROJECT_DIR$/demo2/app.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
-          <caret line="15" column="13" lean-forward="true" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -952,7 +872,7 @@
     <entry file="file://$PROJECT_DIR$/demo2/manage.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
-          <caret line="25" column="16" lean-forward="true" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
+          <caret line="25" column="16" lean-forward="false" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
           <folding>
             <element signature="e#38#52#0" expanded="true" />
             <element signature="e#188#207#0" expanded="false" />
