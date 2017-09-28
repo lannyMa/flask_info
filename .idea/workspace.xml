@@ -1,23 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f009fe2f-169a-4817-b561-7edb1f3deaa6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo-test/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo-test/app01.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo-test/app02.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo-test/demo1.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo-test/demo2.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo-test/fileutils.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo-test/templates/list.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo-test/templates/login.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo-test/templates/update.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo-test/users.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/flask_info/flask_info.one" afterPath="$PROJECT_DIR$/flask_info/flask_info.one" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/flask_info/打开笔记本.onetoc2" afterPath="$PROJECT_DIR$/flask_info/打开笔记本.onetoc2" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/flask_info.iml" afterPath="$PROJECT_DIR$/.idea/flask_info.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/todo" afterPath="$PROJECT_DIR$/todo" />
-    </list>
+    <list default="true" id="f009fe2f-169a-4817-b561-7edb1f3deaa6" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.idea/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
