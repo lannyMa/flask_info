@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>list</title>
+</head>
+<body>
+<h2>welcome <span style="color: pink">{{ session.username }}</span>!</h2>
+
+<h1><a href="/logout">logout</a></h1>
+<form action="/adduser">
+    user: <input type="text" name="user">
+    pwd:  <input type="text" name="pwd">
+    <input type="submit" value="添加用户">
+</form>
+<hr>
+<table border="1">
+    <tr>
+        <th>user</th>
+        <th>pwd</th>
+        <th>action</th>
+    </tr>
+    {% for user in user_list %}
+    <tr>
+        <td>{{ user[0] }}</td>
+        <td>{{ user[1] }}</td>
+        <td>
+            <a href="/update?user={{ user[0] }}">update</a>
+            <a href="/del?user={{ user[0] }}">del</a>
+        </td>
+    </tr>
+
+    {% endfor %}
+</table>
+
+
+</body>
+</html>
