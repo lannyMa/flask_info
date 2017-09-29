@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>index</title>
+</head>
+<body>
+<table border="1">
+    <tr>
+        <th>user</th>
+        <th>borth</th>
+    </tr>
+    {% for user in user_list %}
+    <tr>
+        <td>{{ user[0] }}</td>
+        <td>{{ user[1] }}</td>
+    </tr>
+    {% endfor %}
+</table>
+</body>
+</html>

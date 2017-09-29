@@ -26,8 +26,11 @@ class User(object):
         rows = cur.execute(sql)
         users = []
         for row in rows:
+            print row,type(row)
             user = User(row[0], row[1])
             users.append(user)
+            print users,type(users)
+
         conn.commit()
         cur.close()
         conn.close()
@@ -36,3 +39,6 @@ class User(object):
     def __str__(self):
         return 'id:{}--name:{}'.format(self.id, self.name)
 
+users = User.query()
+for user in users:
+    print user
