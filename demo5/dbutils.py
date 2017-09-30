@@ -3,7 +3,6 @@
 
 import MySQLdb as ms
 
-
 class DB:
     def __init__(self, host, user, passwd, db):
         self.host = host

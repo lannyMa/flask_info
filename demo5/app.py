@@ -26,6 +26,7 @@ def piedata():
     sql = "select status,sum(count) from log group by status";
     # res = db.execute(sql)
     # print res.fetchall()
+    # return "pie"
     cur =  db.execute(sql)
     res = {
         'legend':[],
